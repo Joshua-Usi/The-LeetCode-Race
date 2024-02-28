@@ -68,4 +68,4 @@ function fetchData()
 }
 
 window.onload = fetchData();
-setInterval(fetchData, 1000 * 60 * 5); // Once every 5 minutes
+setInterval(fetchData, 1000 * 10); // Once every 10 seconds
