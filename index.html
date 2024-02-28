@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/x-icon" href="/assets/flag.png">
+	<title>Leetcode Race</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<div id="cowfish-container" style="margin: 1vw; width: 20vw; height: 20vw;">
+		<img class="discord-avatar" id="cowfish-avatar" src="./assets/cowfish-avatar.gif">
+		<div id="cowfish-progress"></div>
+	</div>
+	<div id="usi-container" style="margin: 1vw; width: 20vw; height: 20vw;">
+		<img class="discord-avatar" id="usi-avatar" src="./assets/usi-avatar.png">
+		<div id="usi-progress"></div>
+	</div>
+	<img class="discord-banner" id="cowfish-banner" src="./assets/cowfish-banner.gif">
+	<img class="discord-banner" id="usi-banner" src="./assets/usi-banner.png">
+	<div style="background: #222; position: relative; z-index: 1000; height: 7vh;">
+		<div style="float: right;">
+			<p class="darker-text" id="cowfish-easy" style="display:inline;">---</p>
+			<p class="darker-text" style="display:inline;">easies</p>
+			<p class="darker-text" id="cowfish-medium" style="display:inline;">---</p>
+			<p class="darker-text" style="display:inline;">medium</p>
+			<p class="darker-text" id="cowfish-hard" style="display:inline;">---</p>
+			<p class="darker-text" style="display:inline;">hards</p>
+			<p id="cowfish-score" style="display:inline;">---</p>
+			<p style="display:inline;">points</p>
+			<h1 class="name-plate">Cowfish</h1>
+		</div>
+		<div style="float: left;">
+			<h1 class="name-plate">Usi</h1>
+			<p id="usi-score" style="display:inline;">---</p>
+			<p style="display:inline;">points</p>
+			<p class="darker-text" id="usi-easy" style="display:inline;">---</p>
+			<p class="darker-text" style="display:inline;">easies</p>
+			<p class="darker-text" id="usi-medium" style="display:inline;">---</p>
+			<p class="darker-text" style="display:inline;">medium</p>
+			<p class="darker-text" id="usi-hard" style="display:inline;">---</p>
+			<p class="darker-text" style="display:inline;">hards</p>
+		</div>
+	</div>
+	<div style="position: absolute; top: 0; left: 0; width: 100vw; height: 7vh; text-align: center; padding-top: 1vh; font-size: 4vh; z-index: 1000;">
+		First to 200 points
+	</div>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela%20Round">
+	<script type="text/javascript" src="./assets/progressbar.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

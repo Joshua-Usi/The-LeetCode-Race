@@ -1,0 +1,88 @@
+*
+{
+	/* Helvetica for fallback */
+	font-family: Varela Round, Helvetica;
+	color: #eee;
+}
+
+body
+{
+	margin: 0;
+	overflow: hidden;
+}
+
+.darker-text
+{
+	color: #888;
+}
+
+#usi-progress
+{
+	position: relative;
+	top: -20.5vw;
+	transform: scale(1.1);
+}
+
+
+#cowfish-progress
+{
+	position: relative;
+	top: -20.5vw;
+	transform: scale(1.1);
+}
+
+
+#usi-container
+{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+}
+
+#cowfish-container
+{
+	position: absolute;
+	top: 50%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+}
+
+.discord-avatar
+{
+	width: 20vw;
+	border-radius: 100%;
+	z-index: 1000;
+}
+
+.discord-banner
+{
+	height: 100vh;
+	width: 50vw;
+	object-fit: cover;
+}
+
+#cowfish-banner
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+	object-position: 50% 0;
+}
+
+#usi-banner
+{
+	position: absolute;
+	right: 50vw;
+	top: 0;
+	object-position: 25% 0;
+}
+
+.name-plate
+{
+	display: inline;
+	margin: 1vh;
+	font-size: 5vh;
+}
